@@ -1,0 +1,71 @@
+.Header {
+  width: 100%;
+  height: 30px;
+  padding: 10px 0;
+  position: fixed;
+  animation-duration: 3s;
+  animation-name: fadeIn;
+}
+
+.navBar {
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+.navBar ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navBar ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-family: 'Lato', sans-serif;
+  color: #404040;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: .5rem;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.navBar ul li:hover {
+  color: #BABABA;
+}
+
+ul li:first-child {
+  float: left;
+}
+
+ul li:last-child {
+  float: right;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1;}
+}
+
+@media(max-width:576px){
+  .navBar {
+    width: 80%;
+  }
+}
+@media(min-width:768px){
+  .navBar {
+    width: 40%;
+  }
+}
+@media(min-width:992px){
+  .navBar {
+    width: 40%;
+  }
+}
+@media(min-width:1200px){
+  .navBar {
+    width: 30%;
+  }
+}

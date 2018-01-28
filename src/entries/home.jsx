@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Home from '../pages/home';
 
 const root = document.getElementById('root');
 
-ReactDOM.render(<h1> Hola mundo</h1>, root);
+ReactDOM.render(<Home />, root);
