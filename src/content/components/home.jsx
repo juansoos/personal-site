@@ -7,10 +7,30 @@ function Home() {
       <h1 className="name">Julián Sotelo</h1>
       <h4 className="profession">Ingeniero Multimedia</h4>
       <div className="social-container">
-        <i className="fa fa-twitter" aria-hidden="true" />
-        <i className="fa fa-github" aria-hidden="true" />
-        <i className="fa fa-linkedin" aria-hidden="true" />
-        <i className="fa fa-envelope" aria-hidden="true" />
+        <a
+          href="https://twitter.com/juansoos"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <i className="fa fa-twitter" aria-hidden="true" />
+        </a>
+        <a
+          href="https://github.com/juansoos"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <i className="fa fa-github" aria-hidden="true" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/juansoos"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <i className="fa fa-linkedin" aria-hidden="true" />
+        </a>
+        <a href="mailto:juliansotelo0825@gmail.com">
+          <i className="fa fa-envelope" aria-hidden="true" />
+        </a>
       </div>
     </div>
   );
