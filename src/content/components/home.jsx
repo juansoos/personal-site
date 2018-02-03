@@ -28,7 +28,7 @@ function Home() {
         >
           <i className="fa fa-linkedin" aria-hidden="true" />
         </a>
-        <a href="mailto:juliansotelo0825@gmail.com">
+        <a href="mailto:info@juansoos.com">
           <i className="fa fa-envelope" aria-hidden="true" />
         </a>
       </div>
